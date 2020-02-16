@@ -1,0 +1,37 @@
+.header {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.header_menu {
+    padding: 0 0 0 0;
+
+}
+ul.header_menu li {
+    display: inline;
+}
+
+.header_menu_link {
+    font-size: 16px;
+    text-decoration: none;
+    color: $black;
+}
+
+.header_menu_link:hover {
+    color: $main;
+}
+
+.header_menu_element {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.header_call span {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1100px) {
+    .header_btn {
+        display: none;
+    }
+}

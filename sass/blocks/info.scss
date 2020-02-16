@@ -1,0 +1,55 @@
+.info_logo {
+  position             : absolute;
+  background-image     : url(../../img/foto.png);
+  background-position-x: 30%;
+  background-repeat    : no-repeat;
+  width                : 900px;
+  height               : 610px;
+  left                 : -150px;
+  top                  : -50px;
+  z-index              : 99;
+}
+
+.info_block {
+  width: 900px;
+}
+
+#canvas {
+  position: absolute;
+  width   : 900px;
+  height  : 610px;
+  z-index : 1;
+  margin  : 40px;
+  right   : -450px;
+  top     : -90px;
+}
+
+.info_block_name {
+  font-size  : 80px;
+  font-weight: 900;
+  color      : rgb(31, 31, 36);
+  padding-top: 100px;
+}
+
+.info_block_title {
+  margin-bottom: 45px;
+  font-size    : 25px;
+}
+
+@media (max-width: 1200px) {
+
+  .info_block_name {
+    font-size  : 50px;
+    font-weight: 900;
+    padding-top: 100px;
+  }
+
+}
+
+@media (max-width: 1100px) {
+.info_block {
+    display: none;
+  
+}
+
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap-flex.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+    <title>Exe</title>
+</head>
+<div class="main">
+    <header class="header wrap">
+        <div class="container">
+            <div class="row flex-items-xs-middle">
+                <div class="col-lg-6 col-md-6 col-5">
+                    <nav class="header_nav menu navbar navbar-expand-lg navbar-light ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="header_menu">
+                                <li class=" header_menu_element">
+                                    <a class=" header_menu_link" href="#works">Услуги</a>
+                                </li>
+                                <li class="header_menu_element">
+                                    <a class=" header_menu_link" href="#baner">Портфолио</a>
+                                </li>
+                                <li class="header_menu_element">
+                                    <a class=" header_menu_link" href="#prise">Стоимость</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-lg-6 col-md-6 col-7 header_call">
+                    <span>+79117766733</span>
+                    <button type="button" class="header_btn btn btn-outline-danger" data-target="#basicModal" data-toggle="modal" type="button">Заказать звонок</button>
+                </div>
+                <div aria-hidden="true" aria-labelledby="basicModal" class="modal fade" id="basicModal" role="dialog" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="myModalLabel"></h4>
+                                Мы Вам перезвоним
+                                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>Сообщите номер</h3>
+                                <input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1" placeholder="Номер" type="email" />
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-default" data-dismiss="modal" type="button">
+                                    Отменить
+                                </button>
+                                <button class="btn btn-primary" type="submit">
+                                    Отправить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END BOOTSTRAP-->
+    </header>
+    <section class="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 ">
+                    <div class="info_block">
+                        <span class="info_block_name">Дмитрий Алексеев</span>
+                        <h3 class="info_block_title">Frontend-разработчик и веб-верстальщик</h3>
+                        <button class="main_btn">Узнать больше</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cav">
+                        <div class="info_logo"></div>
+
+                        <canvas id="canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works" class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="banner_title">
+                        Что я делаю
+                    </h2>
+                </div>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-lg-3 col-md-6">
+                    <div class="banner_logo"><img src="img/programming.png" alt=""></div>
+                    <div class="banner_text">
+                        Вёрстка лендинг–страниц<br> и сайтов любой сложности
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="banner_logo"><img src="img/coding(1).png" alt=""></div>
+                    <div class="banner_text text-center">
+                        Адаптивная вёрстка под все<br> браузеры и устройства
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="banner_logo"><img src="img/tools-and-utensils.png" alt=""></div>
+                    <div class="banner_text text-center">
+                        Frontend–разработка<br> и программирование
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="banner_logo"><img src="img/responsive.png" alt=""></div>
+                    <div class="banner_text text-center">
+                        Исправление и доработка<br> существующей вёрстки
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <button class="main_btn banner_btn"> 
+                    Узнать стоимость
+                </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="baner" class="presentation wrap">
+        <h1 class="presentation_title">Примеры моих работ</h1>
+        <div class="presentation_slide">
+            <div class="arrow arrow_left "></div>
+            <div class="arrow arrow_right"></div>
+            <div class="slickslider">
+                <a href="https://www.wildberries.ru/catalog/detyam/odezhda">
+                    <div class="slick-list"><img src="img/Layer1.png" alt="">
+                        <p class="slick-item__text sl">Сайт магазина детской одежды</p>
+                    </div>
+                </a>
+                <a href="http://ann-antonova.ru">
+                    <div class="slick-list"><img src="img/Layer2.png" alt="">
+                        <p class="slick-item__text sl">Сайт психолога Веры Антоновой</p>
+                    </div>
+                </a>
+                <a href="https://lovisnami.ru">
+                    <div class="slick-list"><img src="img/Layer3.png" alt="">
+                        <p class="slick-item__text sl">Сайт магазина «Рыболов»</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="slick-list"><img src="img/Layer3.png" alt="">
+                        <p class="slick-item__text sl">Сайт магазина «Рыболов»</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="presentation_btn">
+            <button class="main_btn presentation_btn">Заказать проект</button>
+        </div>
+    </section>
+    <section id="prise" class="prise">
+        <div class="container">
+            <div class="row align-items-center prise_blocks">
+                <div class="col-lg-12 prise_top">
+
+                    Адаптивная вёрстка под все устройства
+                    <br> и браузеры от 1000 рублей всего за 4 часа.*
+
+                    <div class="col-lg-12 prise_bottom">
+
+                        * Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в зависимости от сложности задач.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <foote class="footer ">
+        <div class="footer_wrap wrap">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 ">
+
+                        <ul class="footer_menu">
+                            <li class="footer_element">
+                                <a class="footer_link" href="#works">Услуги</a>
+                            </li>
+                            <li class="footer_element">
+                                <a class="footer_link" href="#baner">Портфолио</a>
+                            </li>
+                            <li class="footer_element">
+                                <a class="footer_link" href="#prise">Стоимость</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="footer_info">
+                            <p>
+                                <img src="img/call.png" alt="">
+                                <a href="#">
+                                    <i class="fas fa-phone-alt footer_phone"></i>
+                                </a>
+                                +7 (499) 995-77-55
+                            </p>
+                            <p>
+                                <img src="img/email.png" alt="">
+                                <a href="#">
+                                    <i class="far fa-envelope footer_top_phone"></i>
+                                </a>
+                                dmitry@alekseev.com
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <p class="footer_call"><button type="button" class="footer_btn btn btn-outline-danger">Заказать звонок</button></p>
+                        <div class="footer_social">
+
+                            <a class="footer_social_link" href="https://vk.com/nermar" target="_blank">
+                                <svg class="footer_social_svg">
+                                <use xlink:href="img/symbol/sprite.svg#svg--vk"></use>
+                            </svg>
+                            </a>
+
+                            <a class="footer_social_link" href="https://www.facebook.com/nermarrr" target="_blank">
+                                <svg class="footer_social_svg">
+                                <use xlink:href="img/symbol/sprite.svg#svg--facebook"></use>
+                            </svg>
+                            </a>
+
+                            <a class="footer_social_link" href="https://github.com/maratnersesyan/sourse" target="_blank">
+                                <svg class="footer_social_svg">
+                                <use xlink:href="img/symbol/sprite.svg#svg--github"></use>
+                            </svg>
+                            </a>
+
+                            <a class="footer_social_link" href="https://www.facebook.com/nermarrr" target="_blank">
+                                <svg class="footer_social_svg">
+                                <use xlink:href="img/symbol/sprite.svg#svg--twitter"></use>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>Marat Nersesyam,2016-2018</p>
+        </div>
+    </footer>
+</div>
+
+
+<!--Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/all.min.js"></script>
+
+</html>
+</body>
+
+</html>
