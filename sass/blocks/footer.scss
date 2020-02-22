@@ -1,5 +1,5 @@
 .footer_wrap {
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .footer_social {
@@ -8,18 +8,20 @@
     justify-content      : center;
     align-items          : center;
     grid-column-gap      : 20px;
-    padding-top          : 10px;
     margin-right         : 200px;
 }
 
 .footer_social_svg {
     width : 20px;
     height: 20px;
+    fill  : #8993ad;
+
 }
 
 .footer_social_svg:hover {
-    fill  : blue;
-    cursor: pointer;
+    fill      : blue;
+    transition: 1s;
+    cursor    : pointer;
 }
 
 .footer_bottom {
@@ -36,24 +38,33 @@
 }
 
 .footer_link:hover {
-    color: $main;
+    color          : $main;
+    text-decoration: underline;
+    transition     : 1s;
 }
 
 .footer_menu {
     list-style: none;
 }
+
 @media (max-width: 1000px) {
     .footer_call {
         text-align: center;
     }
+
     .footer_social {
         margin-right: 0;
     }
+
     .footer_menu {
         text-align: center;
     }
+
     .footer_info {
         text-align: center;
     }
-}
 
+    .footer_btn {
+        width: 100%;
+    }
+}

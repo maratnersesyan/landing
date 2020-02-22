@@ -1,32 +1,35 @@
 .prise {
-  background: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
   background: linear-gradient(to right top, #ff8f5a, #ff2f96);
   width     : 100%;
-  
+
   margin: 0 15px 0 15px;
 }
+
 .prise_blocks {
   height: 360px;
 }
+
 .prise_top {
-  margin: auto;
-  font-size: 45px;
+  margin     : auto;
+  font-size  : 45px;
   font-weight: bold;
-  color: $primary;
-  text-align: center;
-  
-} 
+  color      : $primary;
+  text-align : center;
+
+}
+
 .prise_bottom {
-    padding-top: 20px;
-    font-size  : 20px;
-    font-weight: normal;
-    color      : $primary;
-    margin: auto;
-    text-align: center;
+  padding-top: 20px;
+  font-size  : 20px;
+  font-weight: normal;
+  color      : $primary;
+  margin     : auto;
+  text-align : center;
+}
+
+@media (max-width: 900px) {
+  .prise_top {
+    font-size: 30px;
   }
-  @media (max-width: 900px) {
-    .prise_top {
-      font-size: 30px;
-    }
 
 }

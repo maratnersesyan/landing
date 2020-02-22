@@ -1,3 +1,7 @@
+.info_canvas {
+  position: relative;
+}
+
 .info_logo {
   position             : absolute;
   background-image     : url(../../img/foto.png);
@@ -11,7 +15,8 @@
 }
 
 .info_block {
-  width: 900px;
+  width     : 1000px;
+  margin-top: 100px;
 }
 
 #canvas {
@@ -46,10 +51,27 @@
 
 }
 
-@media (max-width: 1100px) {
-.info_block {
-    display: none;
-  
+@media (max-width: 1000px) {
+  .info_block_name {
+    font-size: 30px;
+  }
+
+  #canvas {
+    right: -650px;
+    top  : -90px;
+  }
+
 }
 
+@media (max-width: 600px) {
+  .info_block {
+    margin-top   : 10px;
+    margin-bottom: 20px;
+    padding-left : 100px;
+  }
+
+  #canvas {
+    right: -400px;
+    top  : -90px;
+  }
 }

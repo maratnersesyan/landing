@@ -1,36 +1,44 @@
 .header {
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top   : 50px;
 }
+
 .header_menu {
     padding: 0 0 0 0;
 
 }
+
+.header_cal {
+    align-items: flex-end;
+}
+
 ul.header_menu li {
     display: inline;
 }
 
 .header_menu_link {
-    font-size: 16px;
+    font-size      : 16px;
     text-decoration: none;
-    color: $black;
+    color          : $black;
 }
 
 .header_menu_link:hover {
-    color: $main;
+    color          : $main;
+    text-decoration: underline;
+    transition     : 1s;
 }
 
 .header_menu_element {
-    font-size: 20px;
+    font-size   : 16px;
     padding-left: 20px;
 }
 
 .header_call span {
-    font-size: 25px;
+    font-size   : 20px;
     margin-right: 20px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     .header_btn {
         display: none;
     }

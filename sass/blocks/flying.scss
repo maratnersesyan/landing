@@ -1,0 +1,176 @@
+.flying-el {
+    position   : absolute;
+    color      : #fa0d8a;
+    font-weight: bold;
+}
+
+.flying-el>div {
+    position: absolute;
+}
+
+.flying-el__brackets {
+    font-size : 48px;
+    transform : rotate(30deg);
+    left      : -203px;
+    top       : 20px;
+    transition: 1s;
+    animation : fadeIn__brackets 2s ease-in-out;
+}
+
+@keyframes fadeIn__brackets {
+    0% {
+        left   : -1000px;
+        opacity: 0.1;
+    }
+
+    70% {
+        opacity: 0.4;
+    }
+
+    100% {
+        left   : -203px;
+        opacity: 1;
+    }
+}
+
+.flying-el__hashtag {
+    font-size: 57px;
+    transform: rotate(15deg);
+    left     : -96px;
+    top      : 176px;
+    animation: fadeIn__hashtag 2s ease-in-out;
+}
+
+@keyframes fadeIn__hashtag {
+    0% {
+        left   : -1000px;
+        opacity: 0.1;
+    }
+
+    70% {
+        opacity: 0.4;
+    }
+
+    100% {
+        left   : -96px;
+        opacity: 1;
+    }
+}
+
+.flying-el__slash {
+    font-size: 40px;
+    transform: rotate(-20deg);
+    top      : 475px;
+    animation: fadeIn__slash 2s ease-in-out;
+}
+
+@keyframes fadeIn__slash {
+    0% {
+        top    : 2000px;
+        opacity: 0.1;
+    }
+
+    90% {
+        opacity: 0.4;
+    }
+
+    100% {
+        top    : 475px;
+        opacity: 1;
+    }
+}
+
+.flying-el__div_size_s {
+    font-size: 30px;
+    transform: rotate(-15deg);
+    top      : 20px;
+    left     : 414px;
+    animation: fadeIn__div_s 2s ease-in-out;
+}
+
+@keyframes fadeIn__div_s {
+    0% {
+        top    : -1000px;
+        opacity: 0.1;
+    }
+
+    70% {
+        opacity: 0.4;
+    }
+
+    100% {
+        top    : 170px;
+        opacity: 1;
+    }
+}
+
+.flying-el__div_size_m {
+    font-size: 37px;
+    transform: rotate(20deg);
+    position : absolute;
+    top      : 261px;
+    left     : 680px;
+    animation: fadeIn__div_m 2s ease-in-out;
+}
+
+@keyframes fadeIn__div_m {
+    0% {
+        top    : 1700px;
+        opacity: 0.1;
+    }
+
+    70% {
+        opacity: 0.4;
+    }
+
+    100% {
+        top    : 561px;
+        opacity: 1;
+    }
+}
+
+.flying-el-service {
+    position: relative;
+    display : none;
+}
+
+.flying-el-service>div {
+    color      : #fff;
+    font-weight: bold;
+    position   : absolute;
+
+}
+
+.flying-el-service__brackets {
+    font-size: 50px;
+    top      : 59px;
+    left     : -200px;
+    transform: rotate(25deg);
+}
+
+.flying-el-service__hashtag {
+    font-size: 58px;
+    top      : 260px;
+    left     : -100px;
+    transform: rotate(15deg);
+}
+
+.flying-el-service__div {
+    font-size: 38px;
+    top      : 307px;
+    left     : 1050px;
+    transform: rotate(35deg);
+}
+
+.flying-el-service__slash {
+    font-size: 40px;
+    top      : 50px;
+    left     : 1200px;
+    transform: rotate(-25deg);
+}
+
+.flying-el-service__brackets:last-child {
+    top      : 217px;
+    right    : -273px;
+    transform: rotate(-177deg);
+}

@@ -1,10 +1,13 @@
 .banner {
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .banner_text {
-    text-align: center;
-    padding-top: 10px;
+    font-size     : 16px;
+    font-weight   : 400;
+    color         : #8993ad;
+    text-align    : center;
+    padding-top   : 10px;
     padding-bottom: 20px;
 }
 
@@ -13,9 +16,9 @@
 }
 
 .banner_title {
-    font-size: 54px;
-    text-align: center;
-    padding-top: 50px;
+    font-size     : 54px;
+    text-align    : center;
+    padding-top   : 50px;
     padding-bottom: 50px;
 }
 
@@ -24,10 +27,19 @@
     margin-top: 50px;
 }
 
-@media (max-width: 1100px) {
+
+@media(max-width: 1100px) {
     .banner_title {
-        font-size: 34px;
+        font-size : 34px;
         text-align: center;
-        margin-top: 250px;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .banner_title {
+        font-size : 34px;
+        text-align: center;
+        margin-top: 350px;
     }
 }

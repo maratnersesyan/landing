@@ -32,8 +32,8 @@
 
 .presentation_btn {
   text-align   : center;
-  margin-top   : 50px;
-  margin-bottom: 50px;
+  margin-top   : 20px;
+  margin-bottom: 20px;
 }
 
 .slickslider a {
@@ -43,32 +43,36 @@
 
 .presentation_title {
   font-size     : 54px;
-  padding-top   : 20px;
+  padding-top   : 0;
   padding-bottom: 20px;
   text-align    : center;
 }
 
 .slick-item__text {
   font-size  : 20px;
-  font-family: "Roboto";
+  font-weight: 400;
+  color      : #8993ad;
   padding-top: 20px;
   line-height: 1.5;
   text-align : center;
 }
+
 @media (max-width: 1100px) {
   .presentation_title {
-    font-size  : 30px;
+    font-size: 30px;
   }
 
 }
+
 @media (max-width: 600px) {
   .arrow_right {
     background: url(../img/right-arrow.png) no-repeat;
     right     : 10px;
   }
+
   .slick-item__text {
-    padding-top: 20px;
-    line-height: 1.5;
+    padding-top : 20px;
+    line-height : 1.5;
     padding-left: 5px;
   }
 
